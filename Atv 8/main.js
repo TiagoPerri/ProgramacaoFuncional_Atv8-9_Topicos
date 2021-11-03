@@ -29,7 +29,18 @@ console.log(addedApps.join('\n'));
     // isValid(),
     // isAddedAfter2018AndUpdatedAfter2019();
 
-    // (Exercício 2) Identifique quais funções no projeto possuem efeitos colaterais (side-effects)
+// (Exercício 2) Identifique quais funções no projeto possuem efeitos colaterais (side-effects)
     // Adicione um comentário identificando-as
 
     // R: A função que possue efeito colateral é a getGitHubProject();
+
+// (Exercício 3) Identifique quais funções são curried
+    // Adicione um comentário identificando-as
+
+    // R: As funções que são curried são:
+    // contentOfTag(),
+    // isValid()
+
+// (Exercício 5) Crie um novo arquivo main2.js (baseado no main.js) que seleciona todos as apps adicionadas
+// depois do ano 2000 e atualizadas em 2020. Ao imprimir as apps, além do nome, imprima
+// a data que foi adicionada e a data da última atualização.
