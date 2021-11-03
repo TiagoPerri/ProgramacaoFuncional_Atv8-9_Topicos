@@ -18,15 +18,13 @@ console.log(addedApps.join('\n'));
 // (Exercício 1) Identifique todas as declarações de funções neste projeto
     // Adicione um comentário identificando-as
 
-// (Exercício 2) Identifique quais funções no projeto possuem efeitos colaterais (side-effects)
-    // Adicione um comentário identificando-as
-
-// (Exercício 3) Identifique quais funções são curried
-    // Adicione um comentário identificando-as
-
-// (Exercício 4) Identifique quais funções são high-order
-    // Adicione um comentário identificando-as
-
-// (Exercício 5) Crie um novo arquivo main2.js (baseado no main.js) que seleciona todos as apps adicionadas
-// depois do ano 2000 e atualizadas em 2020. Ao imprimir as apps, além do nome, imprima
-// a data que foi adicionada e a data da última atualização.
+    // R: As declarações de funções identificadas dentro desse projeto são:
+    // contentOfTag(), 
+    // contentOfSource(), 
+    // contentOfAdded(), 
+    // contentOfUpdated(), 
+    // contentOfID(), 
+    // getGitHubProject(),
+    // elementsToArray,
+    // isValid(),
+    // isAddedAfter2018AndUpdatedAfter2019();
