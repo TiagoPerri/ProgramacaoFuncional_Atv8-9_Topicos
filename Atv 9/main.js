@@ -75,3 +75,14 @@ const arrToObj = arr.map((number) => mapToNumberObject(number));
     console.log(onlyObj[0]);
 
 // ExercÃ­cio 5: use a funÃ§Ã£o composta do Ex. 4 para transformar os nÃºmeros em 'arr'
+const numberinArr = arrObj.map(
+    R.pipe(
+        isEven(),
+        positive(),
+        isOdd(),
+        negative(),
+        isZero(),
+        isPrime()
+    )
+)
+console.log(numberinArr); 
