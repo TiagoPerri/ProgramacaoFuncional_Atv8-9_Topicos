@@ -28,3 +28,8 @@ console.log(addedApps.join('\n'));
     // elementsToArray,
     // isValid(),
     // isAddedAfter2018AndUpdatedAfter2019();
+
+    // (Exercício 2) Identifique quais funções no projeto possuem efeitos colaterais (side-effects)
+    // Adicione um comentário identificando-as
+
+    // R: A função que possue efeito colateral é a getGitHubProject();
